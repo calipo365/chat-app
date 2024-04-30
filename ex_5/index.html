@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>My Application</title> 
+</head> 
+<body> 
+<div id="root"></div> 
+
+<!-- Import the React, React-Dom, Axios, and Babel libraries from unpkg --> 
+<script crossorigin src="https://unpkg.com/react@18.2.0/umd/react.development.js"></script> 
+<script crossorigin src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.development.js"></script> 
+<script crossorigin src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> 
+<script type="application/javascript" src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script> 
+<script type="text/babel"> 
+
+    const rootElement = document.getElementById('root'); 
+
+    const UserList = () => { 
+        const [users, setUsers] = React.useState([]); 
+        const [username, setUsername] = React.useState("")
+        
+        React.useEffect(() => { 
+            const getUsers = () => { 
+                axios.get('http://localhost:3000/api/users') 
+                    .then((response) => { 
+                        console.log(response.data); 
+                        setUsers(response.data); 
+                    }) 
+                    .catch((error) => { 
+                        console.log(error); 
+                    }); 
+                }; 
+                getUsers(); 
+            }, []); 
+            
+        const list_of_users = () => { 
+            return users.map((item) => 
+                <li key={item.user_id}> 
+                    <p> 
+                        {item.username} 
+                        {" "} 
+                        <button onClick={() => deleteUser(item)}>Delete</button> 
+                        {"Change username:"} 
+                        <form onSubmit={updateUser}> 
+                            <input type="text" value={username} onChange={updateUsernameState} /> 
+                            <input type="submit" value="Submit" /> 
+                        </form> 
+                    </p> 
+                </li> 
+            );
+        }; 
+            
+        const addUser = () => { 
+            event.preventDefault(); 
+            if (username === "") { 
+                alert("Please enter a username!")
+            } else { 
+                axios.post('http://localhost:3000/api/users', { "username": username }) 
+                .then(() => location.reload()); 
+            } 
+        } 
+        
+        const updateUsernameState = (event) => { 
+            setUsername(event.target.value) 
+        } 
+            
+        const deleteUser = (user) => { 
+            axios.delete('http://localhost:3000/api/users/' + user.user_id) 
+                .then((reponse) => { 
+                    setUsers(users.filter(u => u.user_id != user.user_id)) 
+                }) 
+            } 
+        
+        const updateUser = (user) => { 
+            event.preventDefault(); 
+            if (username === "") {
+                alert("Please enter a valid username!") 
+            } else { 
+                axios.put('http://localhost:3000/api/users/' + user.user_id) 
+                    .then(() => location.reload()); 
+                } 
+            } 
+            
+        return ( 
+            <div>
+                <h1>Users</h1> 
+                <ul> 
+                    {list_of_users()}
+                </ul> 
+                <h2>Add a new user:</h2> 
+                <form onSubmit={addUser}> 
+                    <input type="text" value={username} onChange={updateUsernameState} /> 
+                    <input type="submit" value="Submit" />
+                </form> 
+            </div> 
+        );
+    }; 
+    
+    function App() {
+        return ( 
+            <div> 
+                <UserList /> 
+            </div> 
+        ); 
+    } 
+        
+    ReactDOM.render( 
+        <App/>, rootElement 
+    ); 
+</script>
+</body>
+</html>
