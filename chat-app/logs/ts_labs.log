@@ -1,2 +1,44 @@
 2024-04-30 17:06:48:648 [31merror[39m: [31mUnable to connect to MySQL.[39m
 2024-04-30 17:08:22:822 [31merror[39m: [31mUnable to connect to MySQL.[39m
+2024-04-30 17:09:36:936 [32minfo[39m: [32mSuccessfully connected to database[39m
+2024-04-30 17:09:36:936 [32minfo[39m: [32mListening on port: 3000[39m
+2024-04-30 17:57:46:5746 [35mhttp[39m: [35mGET all users[39m
+2024-04-30 17:57:46:5746 [32minfo[39m: [32mGetting all users from the database[39m
+2024-04-30 17:58:25:5825 [35mhttp[39m: [35mGET all users[39m
+2024-04-30 17:58:25:5825 [32minfo[39m: [32mGetting all users from the database[39m
+2024-04-30 17:59:52:5952 [35mhttp[39m: [35mGET all users[39m
+2024-04-30 17:59:52:5952 [32minfo[39m: [32mGetting all users from the database[39m
+2024-04-30 18:14:15:1415 [35mhttp[39m: [35mGET all users[39m
+2024-04-30 18:14:15:1415 [32minfo[39m: [32mGetting all users from the database[39m
+2024-04-30 18:26:00:260 [35mhttp[39m: [35mGET all users[39m
+2024-04-30 18:26:00:260 [32minfo[39m: [32mGetting all users from the database[39m
+2024-04-30 18:41:25:4125 [32minfo[39m: [32mSuccessfully connected to database[39m
+2024-04-30 18:41:25:4125 [32minfo[39m: [32mListening on port: 3000[39m
+2024-04-30 18:43:00:430 [35mhttp[39m: [35mGET all users[39m
+2024-04-30 18:43:00:430 [32minfo[39m: [32mGetting all users from the database[39m
+2024-04-30 18:46:35:4635 [35mhttp[39m: [35mGET all users[39m
+2024-04-30 18:46:35:4635 [32minfo[39m: [32mGetting all users from the database[39m
+2024-04-30 18:55:11:5511 [35mhttp[39m: [35mGET all users[39m
+2024-04-30 18:55:11:5511 [32minfo[39m: [32mGetting all users from the database[39m
+2024-04-30 18:55:32:5532 [35mhttp[39m: [35mGET all users[39m
+2024-04-30 18:55:32:5532 [32minfo[39m: [32mGetting all users from the database[39m
+2024-04-30 18:56:34:5634 [35mhttp[39m: [35mGET all users[39m
+2024-04-30 18:56:34:5634 [32minfo[39m: [32mGetting all users from the database[39m
+2024-04-30 18:56:45:5645 [35mhttp[39m: [35mGET all users[39m
+2024-04-30 18:56:45:5645 [32minfo[39m: [32mGetting all users from the database[39m
+2024-04-30 18:56:49:5649 [35mhttp[39m: [35mGET all users[39m
+2024-04-30 18:56:49:5649 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-01 12:48:07:487 [32minfo[39m: [32mSuccessfully connected to database[39m
+2024-05-01 12:48:07:487 [32minfo[39m: [32mListening on port: 3000[39m
+2024-05-01 12:48:26:4826 [35mhttp[39m: [35mGET all users[39m
+2024-05-01 12:48:26:4826 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-01 12:55:56:5556 [35mhttp[39m: [35mGET all users[39m
+2024-05-01 12:55:56:5556 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-01 12:56:49:5649 [35mhttp[39m: [35mGET all users[39m
+2024-05-01 12:56:49:5649 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-01 12:57:38:5738 [35mhttp[39m: [35mGET all users[39m
+2024-05-01 12:57:38:5738 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-01 12:57:49:5749 [35mhttp[39m: [35mGET all users[39m
+2024-05-01 12:57:49:5749 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-01 12:58:38:5838 [35mhttp[39m: [35mGET all users[39m
+2024-05-01 12:58:38:5838 [32minfo[39m: [32mGetting all users from the database[39m
