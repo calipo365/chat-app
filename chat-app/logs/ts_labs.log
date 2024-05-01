@@ -42,3 +42,37 @@
 2024-05-01 12:57:49:5749 [32minfo[39m: [32mGetting all users from the database[39m
 2024-05-01 12:58:38:5838 [35mhttp[39m: [35mGET all users[39m
 2024-05-01 12:58:38:5838 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-01 13:25:04:254 [31merror[39m: [31mUnable to connect to MySQL.[39m
+2024-05-01 13:25:35:2535 [32minfo[39m: [32mSuccessfully connected to database[39m
+2024-05-01 13:25:35:2535 [32minfo[39m: [32mListening on port: 3000[39m
+2024-05-01 13:29:53:2953 [35mhttp[39m: [35mGET single user id: 575[39m
+2024-05-01 13:29:53:2953 [32minfo[39m: [32mGetting user 575 from the database[39m
+2024-05-01 13:29:55:2955 [35mhttp[39m: [35mGET all users[39m
+2024-05-01 13:29:55:2955 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-01 13:29:56:2956 [35mhttp[39m: [35mGET single user id: 825[39m
+2024-05-01 13:29:56:2956 [32minfo[39m: [32mGetting user 825 from the database[39m
+2024-05-01 13:29:58:2958 [35mhttp[39m: [35mGET all users[39m
+2024-05-01 13:29:58:2958 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-01 13:31:35:3135 [35mhttp[39m: [35mGET single user id: 846[39m
+2024-05-01 13:31:35:3135 [32minfo[39m: [32mGetting user 846 from the database[39m
+2024-05-01 13:31:38:3138 [35mhttp[39m: [35mGET all users[39m
+2024-05-01 13:31:38:3138 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-01 13:38:22:3822 [35mhttp[39m: [35mGET all users[39m
+2024-05-01 13:38:22:3822 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-01 14:31:01:311 [35mhttp[39m: [35mGET all users[39m
+2024-05-01 14:31:01:311 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-01 14:31:09:319 [35mhttp[39m: [35mGET single user id: 363[39m
+2024-05-01 14:31:09:319 [32minfo[39m: [32mGetting user 363 from the database[39m
+2024-05-01 14:31:12:3112 [35mhttp[39m: [35mGET all users[39m
+2024-05-01 14:31:12:3112 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-01 14:31:15:3115 [35mhttp[39m: [35mGET single user id: 848[39m
+2024-05-01 14:31:15:3115 [32minfo[39m: [32mGetting user 848 from the database[39m
+2024-05-01 14:31:17:3117 [35mhttp[39m: [35mDELETE single user id: 848[39m
+2024-05-01 14:31:17:3117 [32minfo[39m: [32mGetting user 848 from the database[39m
+2024-05-01 14:31:17:3117 [32minfo[39m: [32mDeleting user 848[39m
+2024-05-01 14:31:17:3117 [35mhttp[39m: [35mGET all users[39m
+2024-05-01 14:31:17:3117 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-01 14:31:55:3155 [35mhttp[39m: [35mGET single user id: 547[39m
+2024-05-01 14:31:55:3155 [32minfo[39m: [32mGetting user 547 from the database[39m
+2024-05-01 14:31:57:3157 [35mhttp[39m: [35mGET all users[39m
+2024-05-01 14:31:57:3157 [32minfo[39m: [32mGetting all users from the database[39m
