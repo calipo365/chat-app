@@ -3,7 +3,6 @@ import React from 'react';
 import {Link, useNavigate, useParams} from 'react-router-dom';
 
 const User = () => {
-    
     const {id} = useParams();
     const navigate = useNavigate();
     const [user, setUser] = React.useState<User>({user_id:0, username:""})
@@ -36,24 +35,24 @@ const User = () => {
             })
     }
 
-    const updateUsernameState = (event) => { 
-        setUsername(event.target.value) 
-    }
-
-    const updateUser = (user: User) => { 
+    const updateUsernameState = (event: React.ChangeEvent<HTMLInputElement>) => {
+        setUsername(event.target.value);
+    };
+    
+    const updateUser = (event: React.FormEvent<HTMLFormElement>, user: User) => {
+        event.preventDefault(); 
         if (username === "") {
-            alert("Please enter a valid username!") 
-        } else { 
-            axios.put('http://localhost:3000/api/users/' + user.user_id) 
+            alert("Please enter a valid username!");
+        } else {
+            axios.put('http://localhost:3000/api/users/' + user.user_id, { username }) 
                 .then((response) => {
-                    navigate('/users') 
+                    navigate('/users')
                 }, (error) => {
-                    setErrorFlag(true)
+                    setErrorFlag(true);
                     setErrorMessage(error.toString())
-                })
+                });
         }
-    } 
-
+    };
     if (errorFlag) {
         return (
             <div>
@@ -61,16 +60,17 @@ const User = () => {
                 <div style={{ color:"red" }}>
                     {errorMessage}
                 </div>
-                <Link to={"/users"}>Back to users</Link>
+                <Link to={"/users"}> Back to users </Link>
             </div>
         )
     } else {
         return (
             <div>
                 <h1>User</h1>
-                {user.user_id}: {user.username}
-                <Link to={"/users"}>Back to users</Link>
-                <button type="button">
+                <h6> {user.user_id}: {user.username}</h6>
+                <Link to={"/users"}> Back to users </Link>
+                <h1>  </h1>
+                <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#updateUserModal">
                     Edit
                 </button>
                     <div className="modal fade" id="updateUserModal" tabIndex={-1} role="dialog"
@@ -84,17 +84,18 @@ const User = () => {
                                         </button>
                                     </div>
                                     <div className="modal-footer">
+                                        <form onSubmit={(e) => updateUser(e, user)}>
+                                            <input type="text" value={username} onChange={updateUsernameState} />
+                                            <input type="submit" value="Submit" />
+                                        </form>
                                         <button type="button" className="btn btn-secondary" data-dismiss="modal">
                                             Close
                                         </button>
-                                        <form onSubmit={updateUser(user)}> 
-                                            <input type="text" value={username} onChange={updateUsernameState} /> 
-                                            <input type="submit" value="Submit" /> 
-                                        </form> 
                                     </div>
                                 </div>
                             </div>
                         </div>
+                {"    "}
                 <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#deleteUserModal">
                     Delete
                 </button>
