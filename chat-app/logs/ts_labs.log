@@ -76,3 +76,11 @@
 2024-05-01 14:31:55:3155 [32minfo[39m: [32mGetting user 547 from the database[39m
 2024-05-01 14:31:57:3157 [35mhttp[39m: [35mGET all users[39m
 2024-05-01 14:31:57:3157 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-01 14:33:48:3348 [32minfo[39m: [32mSuccessfully connected to database[39m
+2024-05-01 14:33:48:3348 [32minfo[39m: [32mListening on port: 3000[39m
+2024-05-01 14:34:27:3427 [35mhttp[39m: [35mGET single user id: 363[39m
+2024-05-01 14:34:27:3427 [32minfo[39m: [32mGetting user 363 from the database[39m
+2024-05-01 14:34:29:3429 [35mhttp[39m: [35mGET all users[39m
+2024-05-01 14:34:29:3429 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-01 14:59:58:5958 [35mhttp[39m: [35mGET all users[39m
+2024-05-01 14:59:58:5958 [32minfo[39m: [32mGetting all users from the database[39m

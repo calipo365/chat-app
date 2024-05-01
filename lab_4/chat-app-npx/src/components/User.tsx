@@ -9,6 +9,7 @@ const User = () => {
     const [user, setUser] = React.useState<User>({user_id:0, username:""})
     const [errorFlag, setErrorFlag] = React.useState(false)
     const [errorMessage, setErrorMessage] = React.useState("")
+    const [username, setUsername] = React.useState("")
 
     React.useEffect(() => {
         const getUser = () => {
@@ -35,6 +36,24 @@ const User = () => {
             })
     }
 
+    const updateUsernameState = (event) => { 
+        setUsername(event.target.value) 
+    }
+
+    const updateUser = (user: User) => { 
+        if (username === "") {
+            alert("Please enter a valid username!") 
+        } else { 
+            axios.put('http://localhost:3000/api/users/' + user.user_id) 
+                .then((response) => {
+                    navigate('/users') 
+                }, (error) => {
+                    setErrorFlag(true)
+                    setErrorMessage(error.toString())
+                })
+        }
+    } 
+
     if (errorFlag) {
         return (
             <div>
@@ -54,6 +73,28 @@ const User = () => {
                 <button type="button">
                     Edit
                 </button>
+                    <div className="modal fade" id="updateUserModal" tabIndex={-1} role="dialog"
+                        aria-labelledby="updateUserModalLabel" aria-hiddden="true">
+                            <div className="modal-dialog" role="document">
+                                <div className="modal-content">
+                                    <div className="modal-header">
+                                        <h5 className="modal-title" id="updateUserModalLabel">Update User</h5>
+                                        <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div className="modal-footer">
+                                        <button type="button" className="btn btn-secondary" data-dismiss="modal">
+                                            Close
+                                        </button>
+                                        <form onSubmit={updateUser(user)}> 
+                                            <input type="text" value={username} onChange={updateUsernameState} /> 
+                                            <input type="submit" value="Submit" /> 
+                                        </form> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                 <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#deleteUserModal">
                     Delete
                 </button>

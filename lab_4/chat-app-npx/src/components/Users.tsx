@@ -6,6 +6,7 @@ const Users = () => {
     const [users, setUsers] = React.useState < Array < User >> ([])
     const [errorFlag, setErrorFlag] = React.useState(false)
     const [errorMessage, setErrorMessage] = React.useState(" ")
+    const [username, setUsername] = React.useState("")
 
     React.useEffect(() => {
         getUsers()
@@ -37,6 +38,15 @@ const Users = () => {
                 </td>
             </tr>
         )
+    }
+
+    const addUser = () => {
+        if (username === "") {
+            alert("Please enter a username!")
+        } else {
+            axios.post('http://localhost:3000/api/users/', {username: "username"})
+                .then(() => location.reload());
+        }
     }
 
     if (errorFlag) {
