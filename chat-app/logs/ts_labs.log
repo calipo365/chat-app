@@ -656,3 +656,82 @@
 2024-05-03 12:19:04:194 [32minfo[39m: [32mGetting all conversations from the database[39m
 2024-05-03 12:19:09:199 [35mhttp[39m: [35mGET all users[39m
 2024-05-03 12:19:09:199 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 12:20:39:2039 [32minfo[39m: [32mSuccessfully connected to database[39m
+2024-05-03 12:20:39:2039 [32minfo[39m: [32mListening on port: 3000[39m
+2024-05-03 12:45:31:4531 [31merror[39m: [31mUnable to connect to MySQL.[39m
+2024-05-03 12:46:00:460 [32minfo[39m: [32mSuccessfully connected to database[39m
+2024-05-03 12:46:00:460 [32minfo[39m: [32mListening on port: 3000[39m
+2024-05-03 12:46:01:461 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 12:46:01:461 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 12:46:03:463 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 12:46:03:463 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 12:46:04:464 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 12:46:04:464 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 12:46:06:466 [35mhttp[39m: [35mGET single user id: 825[39m
+2024-05-03 12:46:06:466 [32minfo[39m: [32mGetting user 825 from the database[39m
+2024-05-03 12:46:07:467 [35mhttp[39m: [35mDELETE single user id: 825[39m
+2024-05-03 12:46:07:467 [32minfo[39m: [32mGetting user 825 from the database[39m
+2024-05-03 12:46:07:467 [32minfo[39m: [32mDeleting user 825[39m
+2024-05-03 12:46:08:468 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 12:46:08:468 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 12:46:09:469 [35mhttp[39m: [35mGET single user id: 851[39m
+2024-05-03 12:46:09:469 [32minfo[39m: [32mGetting user 851 from the database[39m
+2024-05-03 12:46:14:4614 [35mhttp[39m: [35mPATCH single user id: 851[39m
+2024-05-03 12:46:14:4614 [32minfo[39m: [32mGetting user 851 from the database[39m
+2024-05-03 12:46:14:4614 [32minfo[39m: [32mUpdating user 851 to tashi_baker[39m
+2024-05-03 12:46:14:4614 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 12:46:14:4614 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 12:46:17:4617 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 12:46:17:4617 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 12:46:18:4618 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 12:46:18:4618 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 12:46:19:4619 [35mhttp[39m: [35mGET single conversation id: 4[39m
+2024-05-03 12:46:19:4619 [32minfo[39m: [32mGetting conversation 4 from the database[39m
+2024-05-03 12:46:22:4622 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 12:46:22:4622 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 12:46:25:4625 [35mhttp[39m: [35mPOST create a conversation with name blah[39m
+2024-05-03 12:46:25:4625 [32minfo[39m: [32mAdding conversation blah to the database[39m
+2024-05-03 12:46:27:4627 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 12:46:27:4627 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 12:46:28:4628 [35mhttp[39m: [35mGET single conversation id: 9[39m
+2024-05-03 12:46:28:4628 [32minfo[39m: [32mGetting conversation 9 from the database[39m
+2024-05-03 12:46:34:4634 [35mhttp[39m: [35mPATCH sing conversation id: 9[39m
+2024-05-03 12:46:34:4634 [32minfo[39m: [32mGetting conversation 9 from the database[39m
+2024-05-03 12:46:34:4634 [32minfo[39m: [32mUpdating conversation 9 to blah vblah[39m
+2024-05-03 12:46:34:4634 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 12:46:34:4634 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 12:46:35:4635 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 12:46:35:4635 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 12:46:36:4636 [35mhttp[39m: [35mGET single conversation id: 9[39m
+2024-05-03 12:46:36:4636 [32minfo[39m: [32mGetting conversation 9 from the database[39m
+2024-05-03 12:46:37:4637 [35mhttp[39m: [35mDELETE conversation id: 9[39m
+2024-05-03 12:46:37:4637 [32minfo[39m: [32mGetting conversation 9 from the database[39m
+2024-05-03 12:46:37:4637 [32minfo[39m: [32mDeleting conversation 9[39m
+2024-05-03 12:46:37:4637 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 12:46:37:4637 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 12:58:14:5814 [32minfo[39m: [32mSuccessfully connected to database[39m
+2024-05-03 12:58:14:5814 [32minfo[39m: [32mListening on port: 3000[39m
+2024-05-03 13:00:44:044 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 13:00:44:044 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 13:01:27:127 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 13:01:27:127 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 13:01:29:129 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 13:01:29:129 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 13:01:37:137 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 13:01:37:137 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 13:01:38:138 [35mhttp[39m: [35mGET single conversation id: 5[39m
+2024-05-03 13:01:38:138 [32minfo[39m: [32mGetting conversation 5 from the database[39m
+2024-05-03 13:01:44:144 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 13:01:44:144 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 13:17:58:1758 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 13:17:58:1758 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 13:18:37:1837 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 13:18:37:1837 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 13:18:47:1847 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 13:18:47:1847 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 13:26:19:2619 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 13:26:19:2619 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 13:26:56:2656 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 13:26:56:2656 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 13:29:47:2947 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 13:29:47:2947 [32minfo[39m: [32mGetting all users from the database[39m

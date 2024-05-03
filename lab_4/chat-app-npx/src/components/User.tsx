@@ -1,6 +1,8 @@
 import axios from 'axios';
 import React from 'react';
 import {Link, useNavigate, useParams} from 'react-router-dom';
+import {Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, TextField} from "@mui/material";
+import DeleteIcon from "@mui/icons-material/Delete";
 
 const User = () => {
     const {id} = useParams();
@@ -9,6 +11,16 @@ const User = () => {
     const [errorFlag, setErrorFlag] = React.useState(false)
     const [errorMessage, setErrorMessage] = React.useState("")
     const [username, setUsername] = React.useState("")
+    const [openDeleteDialog, setOpenDeleteDialog] = React.useState(false)
+    const [dialogUser, setDialogUser] = React.useState<User>({ username: "", user_id: -1})
+    const handleDeleteDialog = (user: User) => {
+        setDialogUser(user)
+        setOpenDeleteDialog(true);
+    };
+    const handleDeleteDialogClose = () => {
+        setDialogUser({ username: "", user_id: -1})
+        setOpenDeleteDialog(false);
+    };
 
     React.useEffect(() => {
         const getUser = () => {
@@ -95,32 +107,32 @@ const User = () => {
                                 </div>
                             </div>
                         </div>
-                {"    "}
-                <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#deleteUserModal">
+                <Button variant="outlined" endIcon={<DeleteIcon />} onClick={(event) => { handleDeleteDialog(user) }}>
                     Delete
-                </button>
-                    <div className="modal fade" id="deleteUserModal" tabIndex={-1} role="dialog"
-                        aria-labelledby="deleteUserModalLabel" aria-hiddden="true">
-                            <div className="modal-dialog" role="document">
-                                <div className="modal-content">
-                                    <div className="modal-header">
-                                        <h5 className="modal-title" id ="deleteUserModalLabel">Delete User</h5>
-                                        <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div className="modal-footer">
-                                        <button type="button" className="btn btn-secondary" data-dismiss="modal">
-                                            Close
-                                        </button>
-                                        <button type="button" className="btn btn-primary" data-dismiss="modal"
-                                                onClick={() => deleteUser(user)}>
-                                                    Delete User
-                                                </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                </Button>
+                <Dialog
+                    open={openDeleteDialog}
+                    onClose={handleDeleteDialogClose} 
+                    aria-labelledby="alert-dialog-title"
+                    aria-describedby="alert-dialog-title">
+                    <DialogTitle id="alert-dialog-title">
+                        {"Delete User?"}
+                    </DialogTitle>
+                    <DialogContent>
+                        <DialogContentText id="alert-dialog-discription">
+                            Are you sure you want to delete this user?
+                        </DialogContentText>
+                    </DialogContent>
+                    <DialogActions>
+                        <Button onClick={handleDeleteDialogClose}>Cancel</Button>
+                        <Button variant="outlined" color="error" onClick={() => {
+                            deleteUser(user)
+                            handleDeleteDialogClose(); 
+                        }} autoFocus>
+                            Delete
+                        </Button>
+                    </DialogActions>
+                </Dialog>
             </div>
         )
     }

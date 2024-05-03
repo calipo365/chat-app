@@ -2,6 +2,7 @@ import axios from 'axios';
 import React from 'react';
 import {Link, useNavigate, useParams} from 'react-router-dom';
 
+
 const Conversation = () => {
     const {id} = useParams();
     const navigate = useNavigate();
@@ -72,7 +73,7 @@ const Conversation = () => {
                 <h6> {conversation.convo_id}: {conversation.convo_name}</h6>
                 <Link to={'/conversations'}> Back to Conversations </Link>
                 <h1>   </h1>
-                <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#updateConversationModal">
+                <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#updateConversationModa">
                     Edit
                 </button>
                     <div className='modal fade' id='updateConversationModal' tabIndex={-1} role="dialog"
@@ -97,32 +98,6 @@ const Conversation = () => {
                                 </div>
                             </div>
                         </div>
-                {"       "}
-                <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#deleteConversationModal">
-                    Delete
-                </button>
-                    <div className="modal fade" id="deleteConversationModal" tabIndex={-1} role="dialog"
-                            aria-labelledby="deleteConversationModalLabel" aria-hiddden="true">
-                                <div className="modal-dialog" role="document">
-                                    <div className="modal-content">
-                                        <div className="modal-header">
-                                            <h5 className="modal-title" id ="deleteConversationModalLabel">Delete Conversation</h5>
-                                            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div className="modal-footer">
-                                            <button type="button" className="btn btn-secondary" data-dismiss="modal">
-                                                Close
-                                            </button>
-                                            <button type="button" className="btn btn-primary" data-dismiss="modal"
-                                                    onClick={() => deleteConversation(conversation)}>
-                                                        Delete User
-                                                    </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
             </div>
         )
     }
