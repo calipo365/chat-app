@@ -106,6 +106,9 @@ const Users = () => {
                             </div>
                         </div>
                     </div>
+                    <div>
+                        <Link to={"http://localhost:8080"}>Back to homepage</Link>
+                    </div>
             </div>
         )
     }
