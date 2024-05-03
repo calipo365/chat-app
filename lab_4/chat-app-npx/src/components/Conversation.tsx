@@ -72,7 +72,7 @@ const Conversation = () => {
                 <h6> {conversation.convo_id}: {conversation.convo_name}</h6>
                 <Link to={'/conversations'}> Back to Conversations </Link>
                 <h1>   </h1>
-                <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#pdateConversationModal">
+                <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#updateConversationModal">
                     Edit
                 </button>
                     <div className='modal fade' id='updateConversationModal' tabIndex={-1} role="dialog"
@@ -106,7 +106,7 @@ const Conversation = () => {
                                 <div className="modal-dialog" role="document">
                                     <div className="modal-content">
                                         <div className="modal-header">
-                                            <h5 className="modal-title" id ="deleteConversationModalLabel">Delete User</h5>
+                                            <h5 className="modal-title" id ="deleteConversationModalLabel">Delete Conversation</h5>
                                             <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>

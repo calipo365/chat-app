@@ -528,3 +528,36 @@
 2024-05-03 11:56:24:5624 [32minfo[39m: [32mGetting all conversations from the database[39m
 2024-05-03 11:59:11:5911 [35mhttp[39m: [35mGET single conversation id: 3[39m
 2024-05-03 11:59:11:5911 [32minfo[39m: [32mGetting conversation 3 from the database[39m
+2024-05-03 12:00:32:032 [32minfo[39m: [32mSuccessfully connected to database[39m
+2024-05-03 12:00:32:032 [32minfo[39m: [32mListening on port: 3000[39m
+2024-05-03 12:00:34:034 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 12:00:34:034 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 12:00:36:036 [35mhttp[39m: [35mGET single conversation id: 5[39m
+2024-05-03 12:00:36:036 [32minfo[39m: [32mGetting conversation 5 from the database[39m
+2024-05-03 12:01:28:128 [35mhttp[39m: [35mGET single conversation id: 5[39m
+2024-05-03 12:01:28:128 [32minfo[39m: [32mGetting conversation 5 from the database[39m
+2024-05-03 12:01:43:143 [35mhttp[39m: [35mPATCH sing conversation id: 5[39m
+2024-05-03 12:01:43:143 [32minfo[39m: [32mGetting conversation 5 from the database[39m
+2024-05-03 12:01:43:143 [32minfo[39m: [32mUpdating conversation 5 to Blue or red?[39m
+2024-05-03 12:01:43:143 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 12:01:43:143 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 12:01:45:145 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 12:01:45:145 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 12:01:48:148 [35mhttp[39m: [35mGET single conversation id: 8[39m
+2024-05-03 12:01:48:148 [32minfo[39m: [32mGetting conversation 8 from the database[39m
+2024-05-03 12:01:50:150 [35mhttp[39m: [35mDELETE conversation id: 8[39m
+2024-05-03 12:01:50:150 [32minfo[39m: [32mGetting conversation 8 from the database[39m
+2024-05-03 12:01:50:150 [32minfo[39m: [32mDeleting conversation 8[39m
+2024-05-03 12:01:50:150 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 12:01:50:150 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 12:02:02:22 [35mhttp[39m: [35mGET single conversation id: 3[39m
+2024-05-03 12:02:02:22 [32minfo[39m: [32mGetting conversation 3 from the database[39m
+2024-05-03 12:02:22:222 [35mhttp[39m: [35mPATCH sing conversation id: 3[39m
+2024-05-03 12:02:22:222 [32minfo[39m: [32mGetting conversation 3 from the database[39m
+2024-05-03 12:02:22:222 [32minfo[39m: [32mUpdating conversation 3 to Is an iPhone worth it?[39m
+2024-05-03 12:02:22:222 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 12:02:22:222 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 12:02:25:225 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 12:02:25:225 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 12:02:53:253 [35mhttp[39m: [35mGET single conversation id: 4[39m
+2024-05-03 12:02:53:253 [32minfo[39m: [32mGetting conversation 4 from the database[39m
