@@ -389,3 +389,142 @@
 2024-05-01 18:00:27:027 [32minfo[39m: [32mGetting user 845 from the database[39m
 2024-05-01 18:00:32:032 [35mhttp[39m: [35mGET all users[39m
 2024-05-01 18:00:32:032 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 09:53:57:5357 [32minfo[39m: [32mSuccessfully connected to database[39m
+2024-05-03 09:53:57:5357 [32minfo[39m: [32mListening on port: 3000[39m
+2024-05-03 09:54:12:5412 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 09:54:12:5412 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 09:54:14:5414 [35mhttp[39m: [35mGET single user id: 394[39m
+2024-05-03 09:54:14:5414 [32minfo[39m: [32mGetting user 394 from the database[39m
+2024-05-03 09:54:15:5415 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 09:54:15:5415 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 09:54:17:5417 [35mhttp[39m: [35mGET single user id: 845[39m
+2024-05-03 09:54:17:5417 [32minfo[39m: [32mGetting user 845 from the database[39m
+2024-05-03 09:54:19:5419 [35mhttp[39m: [35mDELETE single user id: 845[39m
+2024-05-03 09:54:19:5419 [32minfo[39m: [32mGetting user 845 from the database[39m
+2024-05-03 09:54:19:5419 [32minfo[39m: [32mDeleting user 845[39m
+2024-05-03 09:54:19:5419 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 09:54:19:5419 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 09:54:21:5421 [35mhttp[39m: [35mGET single user id: 825[39m
+2024-05-03 09:54:21:5421 [32minfo[39m: [32mGetting user 825 from the database[39m
+2024-05-03 09:54:24:5424 [35mhttp[39m: [35mPATCH single user id: 825[39m
+2024-05-03 09:54:24:5424 [32minfo[39m: [32mGetting user 825 from the database[39m
+2024-05-03 09:54:24:5424 [32minfo[39m: [32mUpdating user 825 to rue[39m
+2024-05-03 09:54:24:5424 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 09:54:24:5424 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 09:54:26:5426 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 09:54:26:5426 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 10:08:43:843 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 10:08:43:843 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 10:39:00:390 [32minfo[39m: [32mSuccessfully connected to database[39m
+2024-05-03 10:39:00:390 [32minfo[39m: [32mListening on port: 3000[39m
+2024-05-03 10:39:34:3934 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 10:39:34:3934 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 10:39:39:3939 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 10:39:39:3939 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 10:42:31:4231 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 10:42:31:4231 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 10:42:56:4256 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 10:42:56:4256 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 10:43:52:4352 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 10:43:52:4352 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 10:45:57:4557 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 10:45:57:4557 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 10:46:25:4625 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 10:46:25:4625 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 10:50:09:509 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 10:50:09:509 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 10:50:19:5019 [35mhttp[39m: [35mPOST create a conversation with name Apples vs oranges[39m
+2024-05-03 10:50:19:5019 [32minfo[39m: [32mAdding conversation Apples vs oranges to the database[39m
+2024-05-03 10:50:23:5023 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 10:50:23:5023 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 10:50:33:5033 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 10:50:33:5033 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 10:52:43:5243 [35mhttp[39m: [35mPOST create a conversation with name Challengers Movie[39m
+2024-05-03 10:52:43:5243 [32minfo[39m: [32mAdding conversation Challengers Movie to the database[39m
+2024-05-03 10:52:56:5256 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 10:52:56:5256 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 10:53:05:535 [35mhttp[39m: [35mPOST create a user with username: tashi-smith[39m
+2024-05-03 10:53:05:535 [32minfo[39m: [32mAdding user tashi-smith to the database[39m
+2024-05-03 10:53:10:5310 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 10:53:10:5310 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 10:55:29:5529 [35mhttp[39m: [35mGET single user id: 846[39m
+2024-05-03 10:55:29:5529 [32minfo[39m: [32mGetting user 846 from the database[39m
+2024-05-03 10:55:38:5538 [35mhttp[39m: [35mPATCH single user id: 846[39m
+2024-05-03 10:55:38:5538 [32minfo[39m: [32mGetting user 846 from the database[39m
+2024-05-03 10:55:38:5538 [32minfo[39m: [32mUpdating user 846 to art-smith[39m
+2024-05-03 10:55:38:5538 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 10:55:38:5538 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 10:55:57:5557 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 10:55:57:5557 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 10:56:27:5627 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 10:56:27:5627 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 10:56:46:5646 [35mhttp[39m: [35mPOST create a conversation with name What to study?[39m
+2024-05-03 10:56:46:5646 [32minfo[39m: [32mAdding conversation What to study? to the database[39m
+2024-05-03 10:56:49:5649 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 10:56:49:5649 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 10:57:14:5714 [35mhttp[39m: [35mPOST create a conversation with name Old Movies[39m
+2024-05-03 10:57:14:5714 [32minfo[39m: [32mAdding conversation Old Movies to the database[39m
+2024-05-03 10:57:17:5717 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 10:57:17:5717 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 10:57:30:5730 [35mhttp[39m: [35mPOST create a conversation with name Convos being tabbed[39m
+2024-05-03 10:57:30:5730 [32minfo[39m: [32mAdding conversation Convos being tabbed to the database[39m
+2024-05-03 10:57:33:5733 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 10:57:33:5733 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 10:57:43:5743 [35mhttp[39m: [35mPOST create a conversation with name enter[39m
+2024-05-03 10:57:43:5743 [32minfo[39m: [32mAdding conversation enter to the database[39m
+2024-05-03 10:57:46:5746 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 10:57:46:5746 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 10:57:56:5756 [35mhttp[39m: [35mPOST create a conversation with name weird[39m
+2024-05-03 10:57:56:5756 [32minfo[39m: [32mAdding conversation weird to the database[39m
+2024-05-03 10:57:58:5758 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 10:57:58:5758 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 10:58:05:585 [35mhttp[39m: [35mPOST create a conversation with name its centered[39m
+2024-05-03 10:58:05:585 [32minfo[39m: [32mAdding conversation its centered to the database[39m
+2024-05-03 10:58:07:587 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 10:58:07:587 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 10:58:24:5824 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 10:58:24:5824 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 10:58:51:5851 [35mhttp[39m: [35mGET single user id: 851[39m
+2024-05-03 10:58:51:5851 [32minfo[39m: [32mGetting user 851 from the database[39m
+2024-05-03 10:58:52:5852 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 10:58:52:5852 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 11:54:19:5419 [35mhttp[39m: [35mGET single user id: 851[39m
+2024-05-03 11:54:19:5419 [32minfo[39m: [32mGetting user 851 from the database[39m
+2024-05-03 11:54:21:5421 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 11:54:21:5421 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 11:55:42:5542 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 11:55:42:5542 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 11:55:44:5544 [35mhttp[39m: [35mGET single user id: 575[39m
+2024-05-03 11:55:44:5544 [32minfo[39m: [32mGetting user 575 from the database[39m
+2024-05-03 11:55:46:5546 [35mhttp[39m: [35mGET all users[39m
+2024-05-03 11:55:46:5546 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-03 11:55:48:5548 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 11:55:48:5548 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 11:55:52:5552 [35mhttp[39m: [35mGET single conversation id: 6[39m
+2024-05-03 11:55:52:5552 [32minfo[39m: [32mGetting conversation 6 from the database[39m
+2024-05-03 11:55:54:5554 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 11:55:54:5554 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 11:55:55:5555 [35mhttp[39m: [35mGET single conversation id: 7[39m
+2024-05-03 11:55:55:5555 [32minfo[39m: [32mGetting conversation 7 from the database[39m
+2024-05-03 11:55:57:5557 [35mhttp[39m: [35mDELETE conversation id: 7[39m
+2024-05-03 11:55:57:5557 [32minfo[39m: [32mGetting conversation 7 from the database[39m
+2024-05-03 11:55:57:5557 [32minfo[39m: [32mDeleting conversation 7[39m
+2024-05-03 11:55:57:5557 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 11:55:57:5557 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 11:55:59:5559 [35mhttp[39m: [35mGET single conversation id: 6[39m
+2024-05-03 11:55:59:5559 [32minfo[39m: [32mGetting conversation 6 from the database[39m
+2024-05-03 11:56:12:5612 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 11:56:12:5612 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 11:56:13:5613 [35mhttp[39m: [35mGET single conversation id: 6[39m
+2024-05-03 11:56:13:5613 [32minfo[39m: [32mGetting conversation 6 from the database[39m
+2024-05-03 11:56:14:5614 [35mhttp[39m: [35mDELETE conversation id: 6[39m
+2024-05-03 11:56:14:5614 [32minfo[39m: [32mGetting conversation 6 from the database[39m
+2024-05-03 11:56:14:5614 [32minfo[39m: [32mDeleting conversation 6[39m
+2024-05-03 11:56:15:5615 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 11:56:15:5615 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 11:56:21:5621 [35mhttp[39m: [35mGET single conversation id: 4[39m
+2024-05-03 11:56:21:5621 [32minfo[39m: [32mGetting conversation 4 from the database[39m
+2024-05-03 11:56:24:5624 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-03 11:56:24:5624 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-03 11:59:11:5911 [35mhttp[39m: [35mGET single conversation id: 3[39m
+2024-05-03 11:59:11:5911 [32minfo[39m: [32mGetting conversation 3 from the database[39m
