@@ -735,3 +735,23 @@
 2024-05-03 13:26:56:2656 [32minfo[39m: [32mGetting all users from the database[39m
 2024-05-03 13:29:47:2947 [35mhttp[39m: [35mGET all users[39m
 2024-05-03 13:29:47:2947 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-07 10:32:29:3229 [32minfo[39m: [32mSuccessfully connected to database[39m
+2024-05-07 10:32:29:3229 [32minfo[39m: [32mListening on port: 3000[39m
+2024-05-07 10:34:07:347 [35mhttp[39m: [35mGET all users[39m
+2024-05-07 10:34:07:347 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-07 10:34:15:3415 [35mhttp[39m: [35mGET all users[39m
+2024-05-07 10:34:15:3415 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-07 10:34:17:3417 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-07 10:34:17:3417 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-07 10:34:18:3418 [35mhttp[39m: [35mGET single conversation id: 4[39m
+2024-05-07 10:34:18:3418 [32minfo[39m: [32mGetting conversation 4 from the database[39m
+2024-05-07 10:34:19:3419 [35mhttp[39m: [35mGET all conversations[39m
+2024-05-07 10:34:19:3419 [32minfo[39m: [32mGetting all conversations from the database[39m
+2024-05-07 10:34:21:3421 [35mhttp[39m: [35mGET all users[39m
+2024-05-07 10:34:21:3421 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-07 10:34:26:3426 [35mhttp[39m: [35mGET all users[39m
+2024-05-07 10:34:26:3426 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-07 10:49:03:493 [35mhttp[39m: [35mGET all users[39m
+2024-05-07 10:49:03:493 [32minfo[39m: [32mGetting all users from the database[39m
+2024-05-07 10:51:50:5150 [35mhttp[39m: [35mGET all users[39m
+2024-05-07 10:51:50:5150 [32minfo[39m: [32mGetting all users from the database[39m

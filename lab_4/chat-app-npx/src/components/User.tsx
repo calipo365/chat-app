@@ -112,14 +112,14 @@ const User = () => {
                 </Button>
                 <Dialog
                     open={openDeleteDialog}
-                    onClose={handleDeleteDialogClose} 
+                    onClose={handleDeleteDialogClose}
                     aria-labelledby="alert-dialog-title"
-                    aria-describedby="alert-dialog-title">
+                    aria-describedby="alert-dialog-description">
                     <DialogTitle id="alert-dialog-title">
                         {"Delete User?"}
                     </DialogTitle>
                     <DialogContent>
-                        <DialogContentText id="alert-dialog-discription">
+                        <DialogContentText id="alert-dialog-description">
                             Are you sure you want to delete this user?
                         </DialogContentText>
                     </DialogContent>
@@ -127,7 +127,6 @@ const User = () => {
                         <Button onClick={handleDeleteDialogClose}>Cancel</Button>
                         <Button variant="outlined" color="error" onClick={() => {
                             deleteUser(user)
-                            handleDeleteDialogClose(); 
                         }} autoFocus>
                             Delete
                         </Button>
